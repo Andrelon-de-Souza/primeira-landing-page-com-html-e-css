@@ -89,14 +89,43 @@ span{
     border-bottom: 1px solid rgba(51, 168, 219, 1);
     background-image: url(../images/woman-code.png);
     background-size: cover;
-    height: 400px;
+    height: 450px;
     background-attachment: fixed;
 }
 
 #transform-world p {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 900;
     text-transform: lowercase;
-    width: 250px;
+    width: 280px;
     text-shadow: 3px 2px #33A8DB;
+    margin-top: 110px;
+    margin-left: 130px;
+}
+
+#professional-challenges {
+    padding: 70px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+}
+
+h2 + img {
+    margin: 25px;
+}
+
+img + p {
+    margin: 0 auto;
+    width: 800px;
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background: linear-gradient(#33A8DB00, #33A8DB33);
+}
+
+footer p a {
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: bold;
 }
